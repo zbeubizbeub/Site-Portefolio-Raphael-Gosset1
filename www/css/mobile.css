@@ -1,0 +1,120 @@
+@media (pointer:coarse) {
+    html {
+        font-size: 1.5vw;
+        width: 153%;
+
+    }
+    
+    body{
+        width: 100%;
+    }
+
+    header{
+        padding-top: 10%;
+        transition-duration: 1500ms;
+        transition: linear;
+        font-size: 4vw;
+        width: 100%;
+        
+    }
+
+    
+
+    header.scroll{
+        width: 90%;
+        left: 5%;
+        border-radius: 90px; 
+        height: 5%;
+        top:unset;
+        bottom: 2%;
+        transition-duration: 1500ms;
+        transition: linear;
+        font-size: 4vw;
+    }
+
+    section {
+        height: auto;
+        font-size: 40px;
+        width: 100%;
+        min-height: auto;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    
+
+    section h1 {
+        margin: 0;
+        margin-top: 10%;
+
+    }
+    #home {
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+        font-size: 1.5em;
+    }
+
+    .vector1{
+        left: 0%;
+    }
+
+    .vector2{
+        left: 0%;
+    }
+
+    .insolite{
+        font-size: 1.2em;
+    }
+
+    .home-pdp {
+        width: 40%;
+        left: 30%;
+
+    }
+    .social {
+        width: 125px;
+        height: 125px;
+        padding: 20px;
+    }
+    .box-glow {
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    .projets-card img {
+        padding: auto;
+        margin: auto;
+        height: 300px;
+    }
+
+    .card nav svg{
+        width: 150px;
+        height: 150px;
+    }
+
+    .logiciel2 h5{
+        font-size: 0.5em;
+        flex-direction: column;
+        
+        
+    }
+
+    
+
+    #logiciel h4{
+        font-size: 0.8em;
+    }
+
+
+
+    
+
+    footer {
+        height: 525px;
+        width: 100%;
+    }
+    
+    
+}
